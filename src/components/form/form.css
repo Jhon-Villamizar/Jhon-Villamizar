@@ -1,0 +1,14 @@
+.containerForm {
+  display: flex;
+  justify-content: center;
+  form {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    width: 320px;
+    div {
+      display: flex;
+      justify-content: space-between;
+    }
+  }
+}
